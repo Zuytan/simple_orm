@@ -2,7 +2,6 @@
 A simple ORM library.
 
 # Example
-## Insertion
 1) Once you have a struct you want to save in DB, make it derive `DatabaseInsertable` and define it's `primary_key` :
 ```rust
 #[derive(Debug, Default, DatabaseInsertable)]
